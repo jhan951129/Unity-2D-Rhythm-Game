@@ -17,6 +17,12 @@ public class NoteBehavior : MonoBehaviour
         else if (noteType == 4) keyCode = KeyCode.K;
     }
 
+    public void Initialize()
+    {
+        judge = GameManager.judges.NONE;
+    }
+
+
     void Update()
     {
         transform.Translate(Vector3.down * GameManager.instance.noteSpeed);
@@ -27,7 +33,7 @@ public class NoteBehavior : MonoBehaviour
             //해당 노트에 대한 판정을 진행합니다.
             Debug.Log(judge);
             //노트가 판정선에 닿기 시작한 이후로는 해당 노트를 제거합니다.
-            if (judge != GameManager.judges.NONE) Destroy(gameObject);
+            if (judge != GameManager.judges.NONE) gameObject.SetActive(false);
         }
     }
 
@@ -49,7 +55,7 @@ public class NoteBehavior : MonoBehaviour
         else if (other.gameObject.tag == "Miss Line")
         {
             judge = GameManager.judges.MISS;
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
