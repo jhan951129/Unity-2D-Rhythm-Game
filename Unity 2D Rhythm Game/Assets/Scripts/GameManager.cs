@@ -146,7 +146,7 @@ public class GameManager : MonoBehaviour
             }
             else if (judge == judges.GOOD)
             {
-                judgementSpriteRenderer.sprite = judgeSprites[3];
+                judgementSpriteRenderer.sprite = judgeSprites[1];
                 score += 15;
             }
             combo += 1;
