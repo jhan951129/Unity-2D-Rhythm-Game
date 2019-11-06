@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 711, y: 598}
   m_MaxSize: {x: 22006, y: 18048}
   vertical: 0
-  controlID: 53
+  controlID: 113
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 598}
   m_MaxSize: {x: 18006, y: 18048}
   vertical: 1
-  controlID: 54
+  controlID: 114
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 324}
   m_MaxSize: {x: 8004, y: 8024}
   vertical: 0
-  controlID: 55
+  controlID: 115
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_MinSize: {x: 204, y: 324}
   m_MaxSize: {x: 4004, y: 8024}
   vertical: 1
-  controlID: 56
+  controlID: 116
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,7 +320,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 274}
   m_MaxSize: {x: 18006, y: 10024}
   vertical: 0
-  controlID: 168
+  controlID: 158
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -512,7 +512,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38f2ffffd8f5ffff6afbffffd6fbffffc62b0000
+      m_ExpandedIDs: d6fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -709,11 +709,11 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity Rhythm Game Project\Project\Unity-2D-Rhythm-Game\Unity
     2D Rhythm Game
@@ -721,8 +721,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 58}
-    m_SelectedIDs: 5c280000
-    m_LastClickedID: 10332
+    m_SelectedIDs: 6e270000
+    m_LastClickedID: 10094
     m_ExpandedIDs: 000000008e2600009a290000b229000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -803,7 +803,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 22}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 227
 --- !u!114 &23
